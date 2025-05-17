@@ -45,4 +45,31 @@
     align-items: center;
     cursor: pointer;
     gap: 10px;
+    position: relative;
+}
+.navbar .dropdown{
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    background-color: #191919;
+    width: max-content;
+    border-radius: 2px;
+    padding: 18px 22px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+}
+
+.navbar .dropdown p{
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.navbar .dropdown p{
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.navbar-profile:hover .dropdown{
+    display: block;
 }
