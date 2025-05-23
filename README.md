@@ -10,7 +10,7 @@ A high-quality, responsive Netflix clone built with modern web technologies. R-F
 
 * 📄 Detailed movie info and trailer modal
 * 🔒 User authentication via Firebase (Sign up / Login / Logout)
-* ❤️ Save favorites for logged-in users
+* ❤️ Play Trailer form TMDB
 * 📱 Fully responsive and optimized for mobile, tablet, and desktop
 * 🌙 Dark-themed UI inspired by Netflix
 
