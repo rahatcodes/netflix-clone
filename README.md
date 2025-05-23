@@ -8,8 +8,6 @@ A high-quality, responsive Netflix clone built with modern web technologies. R-F
 
 ## 📌 Features
 
-* 🎞️ Browse trending, top-rated, and upcoming movies/TV shows
-* 🔍 Search functionality to find movies by title
 * 📄 Detailed movie info and trailer modal
 * 🔒 User authentication via Firebase (Sign up / Login / Logout)
 * ❤️ Save favorites for logged-in users
