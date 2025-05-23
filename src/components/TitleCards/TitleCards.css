@@ -29,3 +29,16 @@
     text-decoration: none;
     color: white;
 }
+@media (max-width: 768px){
+    .titlecards{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .titlecards h2{
+        font-size: 15px;
+    }
+    .card-list img{
+        width: 165px;
+    }
+    
+}

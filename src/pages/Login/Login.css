@@ -78,3 +78,31 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+.login-spinner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .login{
+        padding: 15px 5%;
+    }
+    .login-form{
+        padding: 20px;
+        margin: auto;
+    }
+    .login-form h1{
+        font-size: 28px;
+    }
+    .login-form input{
+        font-size: 14px;
+    }
+    .login-form button{
+        font-size: 14px;
+    }
+    
+}

@@ -59,3 +59,50 @@
 .more-cards{
     padding-left: 6%;
 }
+
+@media (max-width: 1024px){
+    .hero-caption .titlecards{
+        display: none;
+    }
+    .hero-btns{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px){
+    .hero-caption{
+        padding-left: 4%;
+    }
+    .caption-img{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .hero-caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .hero-btns .btn img{
+        width: 20px;
+    }
+    .more-cards{
+        padding-left: 4%;
+    }
+    
+}
+
+@media (max-width: 480px){
+    .hero-btns .btn{
+        padding-left: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+    .caption-img{
+        display: none;
+    }
+    .hero-caption p{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .hero-btns .btn img{
+        width: 15px;
+    }
+}

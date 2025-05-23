@@ -25,3 +25,12 @@
     color: gray;
     margin-bottom: 20px;
 }
+@media (max-width: 768px){
+    .footer{
+        padding: 20px 4%;
+    }
+    .footer ul{
+        grid-template-columns: auto auto;
+    }
+    
+}
